@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search for Anime</title>
+    <title>Search of Anime</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <div class="search">
 
-    </div>
+<body>
+    <header>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Enter the name of the anime">
+            <button onclick="searchAnime()">Search</button>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="anime-list" id="animeList"></div>
+    </main>
+
+    <script src="interactive.js"></script>
 </body>
+
 </html>
