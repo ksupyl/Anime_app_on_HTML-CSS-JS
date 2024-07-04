@@ -119,3 +119,9 @@ body {
 .anime-item {
     animation: fadeIn 0.5s ease;
 }
+
+@media screen and (max-width: 980px) {
+    .search input {
+        width: 210px;
+    }
+ }
