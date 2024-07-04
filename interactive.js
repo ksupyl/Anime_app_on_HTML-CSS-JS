@@ -1,3 +1,5 @@
+window.onload = searchAnime;
+
 async function searchAnime() {
     const query = document.getElementById('searchInput').value;
     const response = await fetch(

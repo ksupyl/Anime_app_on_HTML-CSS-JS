@@ -94,7 +94,7 @@ body {
     font-size: 16px;
     color: #666;
     height: 200px;
-    overflow: scroll;
+    overflow: auto;
     text-overflow: ellipsis;
 }
 
