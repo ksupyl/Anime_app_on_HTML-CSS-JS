@@ -24,7 +24,7 @@ function displayAnime(animeList) {
         const posterImage = anime.attributes.posterImage.original;
 
         animeItem.innerHTML = `
-        <img src="${posterImage}" alt="${title}">
+        <img src="${posterImage}" alt="${title}" width="290px">
         <h3>${title}</h3>
         <p>${synopsis}</p>
         <span>Rating: ${rating}</span>
