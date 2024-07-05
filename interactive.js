@@ -34,3 +34,10 @@ function displayAnime(animeList) {
         animeListContainer.appendChild(animeItem);
     });
 }
+
+$(document).ready( function() {
+    $('.search__textarea').on("keyup input cut paste drop", function() {
+        this.style.height = 'auto';
+        this.style.height = this.scrollHeight + 'px';
+    });
+});
